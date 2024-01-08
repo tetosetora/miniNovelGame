@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0px;
+	background-color: rgb(225, 255, 247);
+}
+
+/* シーン番号 */
+h1 {
+    display: inline;
+	font-size: 20x;
+    color: #333;
+    border-bottom: 2px solid #333;
+    margin: 0px;
+}
+
+/* 元気値と知識値 */
+B{
+	margin-left: 30px;
+	font-size: 15px;
+	margin-right: 10px;
+	color: #007bff;
+}
+
+/* 画像部分のテキスト */
+.text{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 40px;
+}
+
+/* シチュエーション */
+p {
+	background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(128, 255, 224);
+  	border-radius: 4px;
+  	max-width: 80%;
+}
+
+.upDoun {
+	background-color: rgba(0, 0, 0, 0.6);
+	color: rgb(224, 255, 0);
+	font-size: 20px;
+	max-width: 80%;
+}
+
+/* リンク */
+a {
+	background-color: rgba(0, 0, 0, 0.6);
+	color: rgb(64, 202, 255);
+	border-radius: 4px;
+	flex-wrap: wrap;
+	max-width: 80%;
+}
+
+/* リンク:hover */
+a:hover {
+	background-color: rgba(128, 64, 64, 0.5);
+}
+
+/* 背景画像 */
+img{
+	display: inline-block;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}
