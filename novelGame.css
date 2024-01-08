@@ -3,24 +3,26 @@
 body {
 	font-family: Arial, sans-serif;
 	margin: 0px;
-	background-color: rgb(225, 255, 247);
+	background-color: rgb(245 255 225);
 }
 
 /* シーン番号 */
 h1 {
-    display: inline;
-	font-size: 20x;
-    color: #333;
-    border-bottom: 2px solid #333;
-    margin: 0px;
+	display: inline;
+	font-size: 2vw;
+	color: #333;
+	border-bottom: 2px solid #333;
+	margin: 0px;
 }
 
 /* 元気値と知識値 */
-B{
+.param{
+	display: inline;
+	font-size: 2vw;
+	padding: 1px;
 	margin-left: 30px;
-	font-size: 15px;
 	margin-right: 10px;
-	color: #007bff;
+	color: #99ff00;
 }
 
 /* 画像部分のテキスト */
@@ -29,35 +31,37 @@ B{
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	font-size: 40px;
+	font-size: 3.5vw;
+	-webkit-text-stroke: 0.2px #ffff00;
 }
 
 /* シチュエーション */
 p {
 	background-color: rgba(0, 0, 0, 0.6);
-    color: rgb(128, 255, 224);
-  	border-radius: 4px;
-  	max-width: 80%;
+	color: rgb(128, 255, 224);
+	border-radius: 4px;
+	max-width: 80%;
+	padding: 0 10px;
 }
 
 .upDoun {
 	background-color: rgba(0, 0, 0, 0.6);
 	color: rgb(224, 255, 0);
-	font-size: 20px;
+	font-size: 2.5vw;
 	max-width: 80%;
 }
 
-/* リンク */
-a {
+/* 選択フォーム */
+a, .button {
 	background-color: rgba(0, 0, 0, 0.6);
+	font-size: 2.5vw;
+	margin-top: 10px;
 	color: rgb(64, 202, 255);
-	border-radius: 4px;
-	flex-wrap: wrap;
-	max-width: 80%;
+	-webkit-text-stroke: 0.1px #007bff;
 }
 
-/* リンク:hover */
-a:hover {
+/* 選択フォーム:hover */
+a:hover, .button:hover {
 	background-color: rgba(128, 64, 64, 0.5);
 }
 
